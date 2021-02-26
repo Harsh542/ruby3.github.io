@@ -1,6 +1,8 @@
 i=1
 num=5
-while i<num
-  puts i
-  i=i+1
-end
+begin
+puts i
+i=i+1
+end while i<num
+
+
